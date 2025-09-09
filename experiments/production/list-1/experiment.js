@@ -67,7 +67,7 @@ const questionnaire = {
         [
             {
                 type: 'html', 
-                prompt: "Rispondi alle seguenti domande:"
+                title: "Rispondi alle seguenti domande:"
             },
             {
                 type: 'boolean',
@@ -91,7 +91,6 @@ const questionnaire = {
                 otherText: "Altro (specificare)",
                 showSelectAllItem: false,
                 showNoneItem: false
-                
             },
             {
                 type: 'comment',
@@ -100,7 +99,8 @@ const questionnaire = {
             },
             {
                 type: 'comment',
-                title: "Quali lingue parli?"
+                title: "Quali lingue parli?",
+                name: 'languages'
             },
             {
                 type: 'comment',
