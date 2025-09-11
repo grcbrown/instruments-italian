@@ -59,6 +59,8 @@ timeline.push(transition);
 const questionnaire = {
   type: jsPsychSurvey,
   survey_json: {
+    showQuestionNumbers: "off",
+    widthMode: "responsive",
     elements: [
       {
         type: "html",
@@ -70,7 +72,7 @@ const questionnaire = {
         title: "Hai letto e capito le istruzioni?",
         labelTrue: "Sì",
         labelFalse: "No",
-        renderAs: "radio"   // makes it behave like proper radio buttons
+        renderAs: "radio"
       },
       {
         type: "text",
