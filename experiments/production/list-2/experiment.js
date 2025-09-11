@@ -56,6 +56,9 @@ const transition = {
 
 timeline.push(transition);
 
+// Apply modern theme
+Survey.StylesManager.applyTheme("modern");
+
 const questionnaire = {
   type: jsPsychSurvey,
   survey_json: {
