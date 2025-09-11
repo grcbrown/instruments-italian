@@ -1,6 +1,6 @@
 const jsPsych = initJsPsych({
     show_progress_bar: true,
-    auto_update_progress_bar: false,
+    auto_update_progress_bar: true,
     on_finish: function(data) {
         proliferate.submit({"trials": data.trials});
     }
@@ -39,11 +39,6 @@ const trials = {
                 text: jsPsych.timelineVariable('text'),
                 id: jsPsych.timelineVariable('id'),
                 subj: jsPsych.timelineVariable('subj')
-            },
-            on_finish: function(data) {
-                jsPsych.progressBar.setValue(
-                    (data.trial_index - 1) / (timeline.length + trial_array.length)
-                );
             }
         }
     ],
