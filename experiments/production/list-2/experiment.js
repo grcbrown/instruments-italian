@@ -1,6 +1,5 @@
 const jsPsych = initJsPsych({
     show_progress_bar: true,
-    auto_update_progress_bar: true,
     on_finish: function(data) {
         proliferate.submit({"trials": data.trials});
     }
@@ -58,72 +57,77 @@ const transition = {
 timeline.push(transition);
 
 const questionnaire = {
-    type: jsPsychSurvey,
-    survey_json: {
-        elements:
-        [
-            {
-                type: 'html', 
-                title: "Rispondi alle seguenti domande:"
-            },
-            {
-                type: 'boolean',
-                title: "Hai letto e capito le istruzioni?",
-                name: 'understood',
-                labelTrue: 'Sì', 
-                labelFalse: 'No'
-            },
-            {
-                type: 'comment',
-                title: "Quanti anni hai?",
-                name: 'age',
-                inputType: "number"
-            },
-            {
-                type: 'radiogroup', 
-                title: "Genere:",
-                name: 'gender',
-                choices: ["Maschile", "Femminile", "Non binario", "Preferisco non specificare"],
-                showOtherItem: true,
-                otherText: "Altro (specificare)",
-                showSelectAllItem: false,
-                showNoneItem: false
-            },
-            {
-                type: 'comment',
-                title: "Come descriverebbe la tua razza e/o etnia?",
-                name: 'ethnicity'
-            },
-            {
-                type: 'comment',
-                title: "Quali lingue parli?",
-                name: 'languages'
-            },
-            {
-                type: 'comment',
-                title: "Di cosa pensi che tratti questo studio?",
-                name: 'topic'
-            },
-            {
-                type: 'radiogroup',
-                title: "Ti è piaciuto lo studio?",
-                name: 'enjoy',
-                choices: ['Uno studio peggiore della media', 'Uno studio medio', "Uno studio migliore della media"]
-            },
-            {
-                type: 'radiogroup',
-                title: "Pensi che il pagamento fosse equo?",
-                name: 'payment',
-                choices: ['Il pagamento è stato equo', 'Il pagamento è stato troppo basso']
-            },
-            {
-                type: 'comment',
-                title: "Hai ulteriori commenti su questo studio?",
-                name: 'comments'
-            }
+  type: jsPsychSurvey,
+  survey_json: {
+    elements: [
+      {
+        type: "html",
+        html: "<p>Rispondi alle seguenti domande:</p>"
+      },
+      {
+        type: "boolean",
+        name: "understood",
+        title: "Hai letto e capito le istruzioni?",
+        labelTrue: "Sì",
+        labelFalse: "No",
+        renderAs: "radio"   // makes it behave like proper radio buttons
+      },
+      {
+        type: "text",
+        name: "age",
+        title: "Quanti anni hai?",
+        inputType: "number"
+      },
+      {
+        type: "radiogroup",
+        name: "gender",
+        title: "Genere:",
+        choices: ["Maschile", "Femminile", "Non binario", "Preferisco non specificare"],
+        showOtherItem: true,
+        otherPlaceholder: "Altro (specificare)"
+      },
+      {
+        type: "comment",
+        name: "ethnicity",
+        title: "Come descriverebbe la tua razza e/o etnia?"
+      },
+      {
+        type: "comment",
+        name: "languages",
+        title: "Quali lingue parli?"
+      },
+      {
+        type: "comment",
+        name: "topic",
+        title: "Di cosa pensi che tratti questo studio?"
+      },
+      {
+        type: "radiogroup",
+        name: "enjoy",
+        title: "Ti è piaciuto lo studio?",
+        choices: [
+          "Uno studio peggiore della media",
+          "Uno studio medio",
+          "Uno studio migliore della media"
         ]
-    }
-}
+      },
+      {
+        type: "radiogroup",
+        name: "payment",
+        title: "Pensi che il pagamento fosse equo?",
+        choices: [
+          "Il pagamento è stato equo",
+          "Il pagamento è stato troppo basso"
+        ]
+      },
+      {
+        type: "comment",
+        name: "comments",
+        title: "Hai ulteriori commenti su questo studio?"
+      }
+    ]
+  }
+};
 
 timeline.push(questionnaire);
 
