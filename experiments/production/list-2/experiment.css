@@ -1,30 +1,59 @@
 /* Center the survey and control width */
-  .sv-root-modern {
+.sv-root-modern {
     max-width: 700px;
     margin: auto;
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
   /* More breathing room between questions */
-  .sv-question {
+.sv-question {
     margin-bottom: 24px;
-  }
+}
 
   /* Make radio/checkbox options easier to click */
-  .sv-item {
+.sv-item {
     padding: 6px 10px;
     border-radius: 6px;
     transition: background 0.2s;
-  }
-  .sv-item:hover {
+}
+.sv-item:hover {
     background: #f5f5f5;
-  }
+}
 
   /* Style section headers */
-  .sv-html {
+.sv-html {
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0 10px 0;
     text-align: center;
-  }
+}
+
+/* Center and bold question titles */
+.sv-question__title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* Center all question content (radio buttons, inputs, etc.) */
+.sv-question__content {
+    text-align: center;
+}
+
+/* Add extra spacing between questions */
+.sv-question {
+    margin-bottom: 30px !important;
+    border: none !important;   /* remove those horizontal lines */
+    padding-bottom: 20px;
+}
+
+/* Optional: make comment boxes a little wider and centered */
+.sv-question__content textarea,
+.sv-question__content input[type="text"],
+.sv-question__content input[type="number"] {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
