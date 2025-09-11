@@ -41,7 +41,9 @@ const trials = {
                 subj: jsPsych.timelineVariable('subj')
             },
             on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + trial_array.length))
+                jsPsych.progressBar.setValue(
+                    (data.trial_index - 1) / (timeline.length + trial_array.length)
+                );
             }
         }
     ],
