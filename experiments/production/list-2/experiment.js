@@ -62,6 +62,7 @@ const questionnaire = {
   survey_json: {
     showQuestionNumbers: "off",
     widthMode: "responsive",
+    completeText: "Completa",
     elements: [
       {
         type: "html",
@@ -78,7 +79,7 @@ const questionnaire = {
       {
         type: "text",
         name: "age",
-        title: "Quanti anni hai?",
+        title: "Età:",
         inputType: "number"
       },
       {
@@ -87,7 +88,7 @@ const questionnaire = {
         title: "Genere:",
         choices: ["Maschile", "Femminile", "Non binario", "Preferisco non specificare"],
         showOtherItem: true,
-        otherPlaceholder: "Altro (specificare)"
+        otherText: "Altro (specificare)"
       },
       {
         type: "comment",
