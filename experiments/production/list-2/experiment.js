@@ -31,6 +31,7 @@ const trials = {
     timeline: [
         {
             type: jsPsychCloze,
+            preamble: "<p style='margin-bottom: 30px;'><b>Completa la frase riempiendo lo spazio vuoto.</b></p>",
             text: jsPsych.timelineVariable('text'),
             allow_blanks: false,
             button_text: 'Avanti',
