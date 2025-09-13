@@ -31,7 +31,7 @@ const trials = {
     timeline: [
         {
             type: jsPsychCloze,
-            text: "<p><b>Completa il testo riempiendo gli spazi vuoti.</b></p><br><br>" + jsPsych.timelineVariable('text'),
+            text: jsPsych.timelineVariable('text'),
             allow_blanks: false,
             button_text: 'Avanti',
             data: {
@@ -50,7 +50,7 @@ timeline.push(trials);
 //SURVEY// 
 const transition = {
     type: jsPsychHtmlButtonResponse,
-    stimulus: "Hai completato le prove sperimentali. Ora ti verrà presentato un breve questionario. La compilazione del questionario è facoltativa. Se ti senti a tuo agio nel farlo, ti preghiamo di rispondere alla seguenti domande.",
+    stimulus: "<p>Hai completato le prove sperimentali. Ora ti verr\u00E0 presentato un breve questionario. La compilazione del questionario \u00E8 facoltativa. Se ti senti a tuo agio nel farlo, ti preghiamo di rispondere alla seguenti domande.</p>",
     choices: ["Avanti"]
 };
 
@@ -72,14 +72,14 @@ const questionnaire = {
         type: "boolean",
         name: "understood",
         title: "Hai letto e capito le istruzioni?",
-        labelTrue: "Sì",
+        labelTrue: "S\u00EC",
         labelFalse: "No",
         renderAs: "radio"
       },
       {
         type: "text",
         name: "age",
-        title: "Età:",
+        title: "Et\u00E0:",
         inputType: "number"
       },
       {
@@ -108,7 +108,7 @@ const questionnaire = {
       {
         type: "radiogroup",
         name: "enjoy",
-        title: "Ti è piaciuto lo studio?",
+        title: 'Ti \u00E8 piaciuto lo studio?',
         choices: [
           "Uno studio peggiore della media",
           "Uno studio medio",
@@ -120,8 +120,8 @@ const questionnaire = {
         name: "payment",
         title: "Pensi che il pagamento fosse equo?",
         choices: [
-          "Il pagamento è stato equo",
-          "Il pagamento è stato troppo basso"
+          "Il pagamento \u00E8 stato equo",
+          "Il pagamento \u00E8 stato troppo basso"
         ]
       },
       {

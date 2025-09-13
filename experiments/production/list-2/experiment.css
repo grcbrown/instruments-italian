@@ -6,11 +6,38 @@
   align-items: center;       /* horizontal centering */
   min-height: 100vh;         /* full viewport height */
   text-align: center;
-  margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   color: #333;
   line-height: 1.6;
+}
+
+/* === Progress Bar === */
+#jspsych-progressbar-container {
+  color: transparent; /* hides default text */
+  position: right; /* needed for positioning the pseudo-element */
+}
+
+/* Insert your custom text */
+#jspsych-progressbar-container::before {
+  content: "Avanzamento";
+  color: black;        /* text color */
+  position: fixed;
+  margin: auto;
+  width: 50%;
+  text-align: center;  /* center the text */
+  left: 0;
+  top: 10;
+}
+
+
+/* === Global Buttons === */
+.jspsych-content button {
+  margin-top: 30px;       /* consistent spacing above all buttons */
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 /* === Cloze plugin inputs === */
@@ -21,8 +48,8 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 6px 10px;
-  font-size: 16px;
-  margin: 6px;
+  font-size: 18px;
+  margin: 10px;
   outline: none;
   text-align: center;
   transition: border-color 0.2s, box-shadow 0.2s;
@@ -30,11 +57,6 @@
 .jspsych-cloze-text input:focus {
   border-color: #4cafef;   /* modern blue */
   box-shadow: 0 0 6px rgba(76, 175, 239, 0.5);
-}
-
-/* Add spacing above the Cloze trial button */
-.jspsych-cloze-btngroup {
-  margin-top: 30px;   /* Increase space above the button */
 }
 
 /* === HtmlButtonResponse plugin buttons === */
@@ -57,15 +79,13 @@
   transform: scale(0.97);
 }
 
-/* Constrain text width in HTML Button Response trials */
 .jspsych-html-button-response-stimulus {
-  max-width: 800px;   /* adjust as needed */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 700px;   /* adjust as needed */
+  padding-left: 80px;
+  padding-right: 80px;
   text-align: center; /* optional, keeps text centered */
   line-height: 1.6;   /* improves readability */
 }
-
 
 /* === SurveyJS elements (modern theme overrides) === */
 
