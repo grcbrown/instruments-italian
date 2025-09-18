@@ -26,23 +26,19 @@ const instructions = {
 timeline.push(instructions);
 
 //TRIALS//
-// ====== Example trial objects ======
-const trial_objects = [
-  { id: 1, text: "Caff\u00E8 con biscotti e limonata", subj: "A" },
-  { id: 2, text: "Il gatto salt\u00F2 sul tavolo", subj: "B" },
-  { id: 3, text: "Cr\u00ECme br\u00FBl\u00E9e \u00E8 deliziosa", subj: "C" }
-];
-
 // ====== Likert scale options ======
 const likertOptions = [
-  "Strongly disagree",
-  "Disagree",
-  "Neutral",
-  "Agree",
-  "Strongly agree"
+  "Totalmente in disaccordo",
+  "Abbastanza in disaccordo",
+  "Un po' in disaccordo",
+  "N\u00E9 d'accordo n\u00E9 in disaccordo",
+  "Un po' d'accordo",
+  "Abbastanza d'accordo",
+  "Assolutamente d'accordo"
 ];
 
 // ====== Nested timeline for survey-likert ======
+let trial_array = create_tv_array(trial_objects);
 const likertTrials = {
   timeline: [
     {
@@ -50,22 +46,32 @@ const likertTrials = {
       preamble: jsPsych.timelineVariable('text'),
       questions: [
         {
-          prompt: "\n\nQuanto piace questa frase?",
+          prompt: "Questa frase \u00E8 naturale.",
           labels: likertOptions,
           required: true
         },
         {
-          prompt: "\n\nQuanto è chiara la frase?",
+          prompt: jsPsych.timelineVariable('mobile'),
           labels: likertOptions,
           required: true
         },
         {
-          prompt: "\n\nQuanto è naturale la frase?",
+          prompt: jsPsych.timelineVariable('volition'),
           labels: likertOptions,
           required: true
         },
         {
-          prompt: "\n\nQuanto suscita emozioni?",
+          prompt: jsPsych.timelineVariable('sentient'),
+          labels: likertOptions,
+          required: true
+        },
+        {
+          prompt: jsPsych.timelineVariable('instigation'),
+          labels: likertOptions,
+          required: true
+        },
+        {
+          prompt: jsPsych.timelineVariable('qualpersist'),
           labels: likertOptions,
           required: true
         }
