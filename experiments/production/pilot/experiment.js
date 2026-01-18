@@ -24,9 +24,9 @@ const irb = {
             <p>Per qualsiasi domanda, dubbio o reclamo riguardante questa ricerca, le sue procedure, i rischi e i benefici, contattare la direttrice del protocollo, Grace Brown, all'indirizzo grcbrown@stanford.edu o al numero (+1) 616-498-8188. Se non sei soddisfatto di come viene condotto questo studio, o se hai dubbi, reclami o domande generali sulla ricerca o sui tuoi diritti in qualit\u00e0 di partecipanti, contatta il Comitato di revisione istituzionale (IRB) di Stanford per parlare con qualcuno indipendente dal team di ricercare al numero (+1) 650-723-2480 o al numero verde 1-866-680-2906, oppure invia un'e-mail all'indirizzo irbnonmed@stanford.edu</p> 
             <h3>REGOLAMENTO GENERALE SULLA PROTEZIONE DEI DATI (GDPR)</h3>
             <p>Raccoglieremo i tuoi dati personali per questo studio, inclusi dati relativi alla tua salute e/o altri dati personali sensibili come descritto in questo modulo di consenso. Faremo riferimento a questi dati come “i tuoi Dati dello Studio”. Qualsiasi Dato dello Studio raccolto nell'ambito di questa ricerca condotta nell'Unione Europea/Spazio Economico Europeo (UE/SEE) sar\u00e0 raccolto, conservato, utilizzato e condivisio (trattato) secondo quanto richiesto dalla legge UE/SEE nota come Regolamento Generale sulla Protezione dei Dati (GDPR).</p>
-            <p>I tuoi Dati dello Studio potranno essere trattati per i seguenti motivi (finalit\u00e0): per condurre lo studio e verificarne l'accuratezza; per aiutarci a monitorare e garantire che lo studio segua le migliori pratiche di ricerca;  -	per redigere le relazioni richieste da enti regolatori nazionali e stranieri e da autorit\u00e0 governative che hanno il compito di supervisionare studi di questo tipo; e per rispettare le leggi e i regolamenti applicabili, inclusi i requisiti che impongono di rendere disponibili ad altri ricercatori, non affiliati con il promotore o il team dello studio, i dati dello studio privi di informazioni che possano identificarti direttamente.</p>
+            <p>I tuoi Dati dello Studio potranno essere trattati per i seguenti motivi (finalit\u00e0): per condurre lo studio e verificarne l'accuratezza; per aiutarci a monitorare e garantire che lo studio segua le migliori pratiche di ricerca; per redigere le relazioni richieste da enti regolatori nazionali e stranieri e da autorit\u00e0 governative che hanno il compito di supervisionare studi di questo tipo; e per rispettare le leggi e i regolamenti applicabili, inclusi i requisiti che impongono di rendere disponibili ad altri ricercatori, non affiliati con il promotore o il team dello studio, i dati dello studio privi di informazioni che possano identificarti direttamente.</p>
             <p>Ad esempio, le autorit\u00e0 regolatorie di alcuni paesi potrebbero richiedere che i tuoi Dati dello Studio, senza informazioni che ti identifichino direttamente, siano resi pubblicamente disponibili su internet o in altri modi, al fine di rendere i dati di ricerca pi\u00f9 accessibili ad altri ricercatori.</p>
-            <p>Le seguenti persone e organizzazioni possono trattare i tuoi Dati dello Studio per le finalit\u00e0 sopra elencate: il team di ricerca, comprese altre persone e organizzazioni che collaborano con il team di ricerca (Grace Brown, Beth Levin); -	il comitato etico o Institutional Review Board che ha approvato questo studio; e le autorit\u00e0 regolatorie nazionali e straniere e i funzionari governativi responsabili della supervisione di studi come questo.</p>
+            <p>Le seguenti persone e organizzazioni possono trattare i tuoi Dati dello Studio per le finalit\u00e0 sopra elencate: il team di ricerca, comprese altre persone e organizzazioni che collaborano con il team di ricerca (Grace Brown, Beth Levin); il comitato etico o Institutional Review Board che ha approvato questo studio; e le autorit\u00e0 regolatorie nazionali e straniere e i funzionari governativi responsabili della supervisione di studi come questo.</p>
             <p>Potremmo condurre lo studio negli Stati Uniti e in altri paesi in cui le leggi non proteggono la tua privacy nella stessa misura delle leggi del paese in cui risiedi. I tuoi Dati dello Studio potranno essere trasferiti in questi paesi per le finalit\u00e0 descritte sopra.</p>
             <p>Adotteremo misure ragionevoli per proteggere la tua privacy, in conformit\u00e0 con le leggi applicabili. Ad esempio, ove appropriato, stipuliamo accordi di trasferimento dati con clausole contrattuali standard approvate dalle autorit\u00e0 europee, che stabiliscono termini e condizioni su come i tuoi Dati possono essere utilizzati e condivisi. Questi accordi di trasferimento dati contribuiscono a garantire un'adeguata protezione dei tuoi Dati dello Studio.</p>
             <p>Il GDPR ti riconosce determinati diritti in relazione ai tuoi Dati dello Studio, tra cui il diritto di: (1) richiedere l'accesso, la rettifica o la cancellazione dei tuoi Dati dello Studio; (2) opporti o limitare il trattamento dei tuoi Dati dello Studio; e (3) richiedere che i tuoi Dati dello Studio vengano spostati, copiati o trasferiti a un'altra organizzazione. Per effettuare una di queste richieste, contatta la Ricercatrice Principale al numero (+1) 616-498-8188 o all'indirizzo grcbrown@stanford.edu.</p>
@@ -110,12 +110,11 @@ const transition = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
     <div class="gen_ins"; style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;">
-        <p>Hai completato le prove di completamento delle frasi. Ora verrai indirizzato a un sondaggio facoltativo.</p>
-        <p>Please answer any of the questions on the next page that you are comfortable answering. After seeing the survey, you will be able to end the experiment.</p>
-        <p>Click ‘Continue’ to proceed to the survey.</p>
+        <p>Rispondi alle domande nella pagina successiva a cui desideri rispondere. Dopo aver visualizzato il sondaggio, puoi terminare l'esperimento.</p>
+        <p>Clicca su 'Continua' per continuare il sondaggio.</p>
     </div>
     `,
-    choices: ["Continue"]
+    choices: ["Continua"]
 };
 
 const questionnaire = {
@@ -128,70 +127,70 @@ const questionnaire = {
     elements: [
       {
         type: "html",
-        html: "<p>Please respond to the following questions. When you are done with the survey, click 'Finish' at the bottom of the page to be directed to the end of the experiment.</p>"
+        html: "<p>Rispondi alle seguenti domande. Dopo aver completato il sondaggio, clicca su 'Fine' per terminare l'esperimento.</p>"
       },
       {
         type: "boolean",
         name: "understood",
-        title: "Did you read and understand the instructions?",
-        labelTrue: "Yes",
+        title: "Hai letto e capito le istruzioni?",
+        labelTrue: "S\u00ec",
         labelFalse: "No",
         renderAs: "radio"
       },
       {
         type: "text",
         name: "age",
-        title: "Age:",
+        title: "Et\u00e0:",
         inputType: "number"
       },
       {
         type: "radiogroup",
         name: "gender",
-        title: "Gender Identity:",
-        choices: ["Male", "Female", "Non-binary", "Prefer not to answer"],
+        title: "Genere:",
+        choices: ["Maschile", "Femminile", "Non binario", "Preferisco non specificare"],
         showOtherItem: true,
-        otherText: "Other (specify)",
+        otherText: "Altro (specificare)",
         showSelectAllItem: false,
         shwNoneItem: false
       },
       {
         type: "comment",
         name: "ethnicity",
-        title: "How would you describe your race or ethnicity?"
+        title: "Come descriverebbe la tua razza e/o etnia?"
       },
       {
         type: "comment",
         name: "languages",
-        title: "What languages do you speak?"
+        title: "Quali lingue parli?"
       },
       {
         type: "comment",
         name: "topic",
-        title: "What do you think this study was about?"
+        title: "Di cosa pensi che tratti questo studio?"
       },
       {
         type: "radiogroup",
         name: "enjoy",
-        title: 'Did you enjoy the study?',
+        title: 'Ti \u00e8 piaciuto lo studio?',
         choices: [
-          "Worse than average study",
-          "Average study",
-          "Better than average study"
+          "Uno studio peggiore della media",
+          "Uno studio medio",
+          "Uno studio migliore della media"
         ]
       },
       {
         type: "radiogroup",
         name: "payment",
-        title: "Did you think the payment was fair?",
+        title: "Pensi che il pagamento sia equo?",
         choices: [
-          "The payment was fair",
-          "The payment was too low"
+          "Il pagamento \u00e8 equo",
+          "Il pagamento \u00e8 troppo basso"
         ]
       },
       {
         type: "comment",
         name: "comments",
-        title: "Do you have any additional comments about the study?"
+        title: "Hai ulteriori commenti su questo studio?"
       }
     ]
   }

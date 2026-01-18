@@ -75,7 +75,7 @@ let trial_objects_list_1 = [
         "subj": "instrument"
     },
     {
-        "text": "La chiave inglese ha %% il pannello..",
+        "text": "La chiave inglese ha %% il pannello.",
         "id": 16, 
         "subj": "instrument"
     },
@@ -130,7 +130,7 @@ let trial_objects_list_1 = [
         "subj": "human"
     },
     {
-        "text": "Luca ha %% la zuppa con il mestolo..",
+        "text": "Luca ha %% la zuppa con il mestolo.",
         "id": 27, 
         "subj": "human"
     },
