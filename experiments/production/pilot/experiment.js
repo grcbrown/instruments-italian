@@ -21,7 +21,7 @@ const irb = {
             <h3>PRIVACY E RISERVATEZZA</h3> 
             <p>I rischi associati a questo studio sono minimi. Tale valutazione si basa su un'ampia esperienza con procedure identiche o simili condotte su persone di et\u00e0, sesso, origini, ecc. simili. I dati dello studio saranno conservati in modo sicuro, in conformit\u00e0 con gli standard della Stanford University, riducendo al minimo il rischio di violazione della riservatezza. La privacy individuale sar\u00e0 garantita durante la ricerca e in tutti i dati pubblicati e scritti risultanti dallo studio.</p>
             <h3>INFORMAZIONI DI CONTATTO</h3>
-            <p>Per qualsiasi domanda, dubbio o reclamo riguardante questa ricerca, le sue procedure, i rischi e i benefici, contattare la direttrice del protocollo, Grace Brown, all'indirizzo grcbrown@stanford.edu o al numero (+1) 616-498-8188. Se non sei soddisfatto di come viene condotto questo studio, o se hai dubbi, reclami o domande generali sulla ricerca o sui tuoi diritti in qualit\u00e0 di partecipanti, contatta il Comitato di revisione istituzionale (IRB) di Stanford per parlare con qualcuno indipendente dal team di ricercare al numero (+1) 650-723-2480 o al numero verde 1-866-680-2906, oppure invia un'e-mail all'indirizzo irbnonmed@stanford.edu</p> 
+            <p>Per qualsiasi domanda, dubbio o reclamo riguardante questa ricerca, le sue procedure, i rischi e i benefici, contattare la direttrice del protocollo, Grace Brown, all'indirizzo grcbrown@stanford.edu o al numero (+1) 616-498-8188. Se non sei soddisfatto di come viene condotto questo studio, o se hai dubbi, reclami o domande generali sulla ricerca o sui tuoi diritti in qualit\u00e0 di partecipanti, contatta il Comitato di revisione istituzionale (IRB) di Stanford per parlare con qualcuno indipendente dal team di ricercare al numero (+1) 650-723-2480 o al numero verde 1-866-680-2906, oppure invia un'e-mail all'indirizzo irbnonmed@stanford.edu.</p> 
             <h3>REGOLAMENTO GENERALE SULLA PROTEZIONE DEI DATI (GDPR)</h3>
             <p>Raccoglieremo i tuoi dati personali per questo studio, inclusi dati relativi alla tua salute e/o altri dati personali sensibili come descritto in questo modulo di consenso. Faremo riferimento a questi dati come “i tuoi Dati dello Studio”. Qualsiasi Dato dello Studio raccolto nell'ambito di questa ricerca condotta nell'Unione Europea/Spazio Economico Europeo (UE/SEE) sar\u00e0 raccolto, conservato, utilizzato e condivisio (trattato) secondo quanto richiesto dalla legge UE/SEE nota come Regolamento Generale sulla Protezione dei Dati (GDPR).</p>
             <p>I tuoi Dati dello Studio potranno essere trattati per i seguenti motivi (finalit\u00e0): per condurre lo studio e verificarne l'accuratezza; per aiutarci a monitorare e garantire che lo studio segua le migliori pratiche di ricerca; per redigere le relazioni richieste da enti regolatori nazionali e stranieri e da autorit\u00e0 governative che hanno il compito di supervisionare studi di questo tipo; e per rispettare le leggi e i regolamenti applicabili, inclusi i requisiti che impongono di rendere disponibili ad altri ricercatori, non affiliati con il promotore o il team dello studio, i dati dello studio privi di informazioni che possano identificarti direttamente.</p>
@@ -123,11 +123,11 @@ const questionnaire = {
   survey_json: {
     showQuestionNumbers: "off",
     widthMode: "responsive",
-    completeText: "Finish",
+    completeText: "Finire",
     elements: [
       {
         type: "html",
-        html: "<p>Rispondi alle seguenti domande. Dopo aver completato il sondaggio, clicca su 'Fine' per terminare l'esperimento.</p>"
+        html: "<p>Rispondi alle seguenti domande. Dopo aver completato il sondaggio, clicca su 'Finire' per terminare l'esperimento.</p>"
       },
       {
         type: "boolean",
