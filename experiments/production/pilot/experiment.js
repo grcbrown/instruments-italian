@@ -10,7 +10,7 @@ let timeline = []; //Empty timeline to which we will add trials
 const irb = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-        <div style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 100px; margin-left: 100px; margin-bottom: 25px;">
+        <div style="font-size: 16px; text-align: center; margin-top: 25px; margin-right: 50px; margin-left: 50px; margin-bottom: 25px;">
             <img src="./image/SUSig_2color_Stree_Left.png" alt="Stanford Logo" style="max-width: 500px; margin-bottom: 20px;">
             <h3>DESCRIZIONE</h3>
             <p>Ti invitiamo a partecipare a uno studio di ricerca sulla produzione linguistica. Lo scopo \u00e8 quello di aiutarci a comprendere quali fattori influenzano la costruzione delle frasi. Nello studio dovrai completare una serie di frasi. Successivamente, avrai la possibilit\u00e0 di compilare un sondaggio demografico facoltativo. La partecipazione a questa recerca \u00e8 volontaria e sei libero di revocare il tuo consenso in qualsiasi momento.</p>
