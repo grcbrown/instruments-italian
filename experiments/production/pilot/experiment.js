@@ -222,7 +222,7 @@ var thanks = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: `<p>Hai completato l'esperimento. Grazie per il tempo che ci hai dedicato!</p>
     <br><br>
-    <p> <a href="https://app.prolific.com/submissions/complete?cc=C1AIAUN3"> Clicca su questo link per tornare su Prolific e completare lo studio.</a>.</p>`,
+    <p> <a href="https://app.prolific.com/submissions/complete?cc=C1AIAUN3"> Clicca su questo link per tornare su Prolific e completare lo studio.</a></p>`,
   choices: "NO_KEYS"
 };
 
