@@ -50,6 +50,7 @@ function createLikertTrial(tv) {
         ${makeLikertRow("instigation", tv.instigation)}
       </table>
     `,
+    button_label: "Continua",
     data: {
       id: tv.id,
       subj: tv.subj
