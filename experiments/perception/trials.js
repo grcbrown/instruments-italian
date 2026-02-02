@@ -3,287 +3,287 @@ let trial_objects_1 = [
         "text": "La canna da pesca ha catturato il pesce.", 
         "id": 1,
         "subj": "instrument",
-        "mobile": "La canna da pesca pu\u00e8 muoversi.",
+        "mobile": "La canna da pesca pu\u00f2 muoversi.",
         "volition": "La canna da pesca ha agito di propria iniziativa.",
         "sentient": "La canna da pesca \u00E8 senziente.",
         "potent": "La canna da pesca ha generato la propria energia per catturare il pesce.",
         "instigation": "La canna da pesca ha causato la cattura del pesce.",
-        "manipulability": "La canna da pesca pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La canna da pesca pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Angelo ha sbattuto le uova con la frusta.",
         "id": 2, 
         "subj": "human",
-        "mobile": "Angelo pu\u00e8 muoversi.",
+        "mobile": "Angelo pu\u00f2 muoversi.",
         "volition": "Angelo ha agito di propria iniziativa.",
         "sentient": "Angelo \u00E8 senziente.",
         "potent": "Angelo ha generato la propria energia per sbattere le uova.",
         "instigation": "Angelo ha causato la sbattitura delle uova.",
-        "manipulability": "Angelo pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Angelo pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il coltello ha tagliato il pane.",
         "id": 3, 
         "subj": "instrument",
-        "mobile": "Il coltello pu\u00e8 muoversi.",
+        "mobile": "Il coltello pu\u00f2 muoversi.",
         "volition": "Il coltello ha agito di propria iniziativa.",
         "sentient": "Il coltello \u00E8 senziente.",
         "potent": "Il coltello ha generato la propria energia per tagliare il pane.",        
         "instigation": "Il coltello ha causato il taglio del pane.",
-        "manipulability": "Il coltello pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il coltello pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Valentina ha mescolato la zuppa con il cucchiaio.",
         "id": 4, 
         "subj": "human",
-        "mobile": "Valentina pu\u00e8 muoversi.",
+        "mobile": "Valentina pu\u00f2 muoversi.",
         "volition": "Valentina ha agito di propria iniziativa.",
         "sentient": "Valentina \u00E8 senziente.",
         "potent": "Valentina ha generato la propria energia per mescolare la zuppa.",
         "instigation": "Valentina ha causato la mescolanza della zuppa.",
-        "manipulability": "Valentina pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Valentina pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Il pestello ha schiacciato l​​'aglio.",
         "id": 5, 
         "subj": "instrument",
-        "mobile": "Il pestello pu\u00e8 muoversi.",
+        "mobile": "Il pestello pu\u00f2 muoversi.",
         "volition": "Il pestello ha agito di propria iniziativa.",
         "sentient": "Il pestello \u00E8 senziente.",
         "potent": "Il pestello ha generato la propria energia per schiacciare l​​'aglio.",
         "instigation": "Il pestello ha causato la schiacciatura dell​'aglio.",
-        "manipulability": "Il pestello pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il pestello pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Federico ha appiattito l​​'impasto con il mattarello.",
         "id": 6, 
         "subj": "human",
-        "mobile": "Federico pu\u00e8 muoversi.",
+        "mobile": "Federico pu\u00f2 muoversi.",
         "volition": "Federico ha agito di propria iniziativa.",
         "sentient": "Federico \u00E8 senziente.",
         "potent": "Federico ha generato la propria energia per appiattire l​​'impasto.",
         "instigation": "Federico ha causato l'appiattimento dell'impasto.",
-        "manipulability": "Federico pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Federico pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il pennello ha dipinto il ritratto.",
         "id": 7, 
         "subj": "instrument",
-        "mobile": "Il pennello pu\u00e8 muoversi.",
+        "mobile": "Il pennello pu\u00f2 muoversi.",
         "volition": "Il pennello ha agito di propria iniziativa.",
         "sentient": "Il pennello \u00E8 senziente.",
         "potent": "Il pennello ha generato la propria energia per dipingere il ritratto.",
         "instigation": "Il pennello ha causato la dipintura del ritratto.",
-        "manipulability": "Il pennello pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il pennello pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Francesca ha segnato la carta con la matita.",
         "id": 8, 
         "subj": "human",
-        "mobile": "Francesca pu\u00e8 muoversi.",
+        "mobile": "Francesca pu\u00f2 muoversi.",
         "volition": "Francesca ha agito di propria iniziativa.",
         "sentient": "Francesca \u00E8 senziente.",
         "potent": "Francesca ha generato la propria energia per segnare la carta.",
         "instigation": "Francesca ha causato il segno sulla carta.",
-        "manipulability": "Francesca pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Francesca pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La gomma ha cancellato il segno.",
         "id": 9, 
         "subj": "instrument",
-        "mobile": "La gomma pu\u00e8 muoversi.",
+        "mobile": "La gomma pu\u00f2 muoversi.",
         "volition": "La gomma ha agito di propria iniziativa.",
         "sentient": "La gomma \u00E8 senziente.",
         "potent": "La gomma ha generato la propria energia per cancellare il segno.",
         "instigation": "La gomma ha causato la cancellazione del segno.",
-        "manipulability": "La gomma pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La gomma pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Carlo ha colpito la palla con la racchetta.",
         "id": 10, 
         "subj": "human",
-        "mobile": "Carlo pu\u00e8 muoversi.",
+        "mobile": "Carlo pu\u00f2 muoversi.",
         "volition": "Carlo ha agito di propria iniziativa.",
         "sentient": "Carlo \u00E8 senziente.",
         "potent": "Carlo ha generato la propria energia per colpire la palla.",
         "instigation": "Carlo ha causato il colpo della palla.",
-        "manipulability": "Carlo pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Carlo pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "L​​'ascia ha spaccato il legno.",
         "id": 11, 
         "subj": "instrument",
-        "mobile": "L​​'ascia pu\u00e8 muoversi.",
+        "mobile": "L​​'ascia pu\u00f2 muoversi.",
         "volition": "L​​'ascia ha agito di propria iniziativa.",
         "sentient": "L​​'ascia \u00E8 senziente.",
         "potent": "L​​'ascia ha generato la propria energia per spaccare il legno.",
         "instigation": "L​​'ascia ha causato la spaccatura del legno.",
-        "manipulability": "L​​'ascia pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "L​​'ascia pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Daniela ha decapitato il cavaliere con la spada.",
         "id": 12, 
         "subj": "human",
-        "mobile": "Daniela pu\u00e8 muoversi.",
+        "mobile": "Daniela pu\u00f2 muoversi.",
         "volition": "Daniela ha agito di propria iniziativa.",
         "sentient": "Daniela \u00E8 senziente.",
         "potent": "Daniela ha generato la propria energia per decapitare il cavaliere.",
         "instigation": "Daniela ha causato la decapitazione del cavaliere.",
-        "manipulability": "Daniela pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Daniela pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La chiave inglese ha stretto il bullone.",
         "id": 13, 
         "subj": "instrument",
-        "mobile": "La chiave inglese pu\u00e8 muoversi.",
+        "mobile": "La chiave inglese pu\u00f2 muoversi.",
         "volition": "La chiave inglese ha agito di propria iniziativa.",
         "sentient": "La chiave inglese \u00E8 senziente.",
         "potent": "La chiave inglese ha generato la propria energia per stringere il bullone.",
         "instigation": "La chiave inglese ha causato lo stringimento del bullone. ",
-        "manipulability": "La chiave inglese pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La chiave inglese pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Vittorio ha rotto la finestra con la pietra.",
         "id": 14, 
         "subj": "human",
-        "mobile": "Vittorio pu\u00e8 muoversi.",
+        "mobile": "Vittorio pu\u00f2 muoversi.",
         "volition": "Vittorio ha agito di propria iniziativa.",
         "sentient": "Vittorio \u00E8 senziente.",
         "potent": "Vittorio ha generato la propria energia per rompere la finestra.",
         "instigation": "Vittorio ha causato la rottura della finestra.",
-        "manipulability": "Vittorio pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Vittorio pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "La scopa ha spazzato il patio.",
         "id": 15, 
         "subj": "instrument",
-        "mobile": "La scopa pu\u00e8 muoversi.",
+        "mobile": "La scopa pu\u00f2 muoversi.",
         "volition": "La scopa ha agito di propria iniziativa.",
         "sentient": "La scopa \u00E8 senziente.",
         "potent": "La scopa ha generato la propria energia per spazzare il patio.",
         "instigation": "La scopa ha causato la spazzatura del patio.",
-        "manipulability": "La scopa pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La scopa pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Donata ha raccolto le foglie con il rastrello.",
         "id": 16, 
         "subj": "human",
-        "mobile": "Donata pu\u00e8 muoversi.",
+        "mobile": "Donata pu\u00f2 muoversi.",
         "volition": "Donata ha agito di propria iniziativa.",
         "sentient": "Donata \u00E8 senziente.",
         "potent": "Donata ha generato la propria energia per raccogliere le foglie.",
         "instigation": "Donata ha causato la raccolta delle foglie.",
-        "manipulability": "Donata pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Donata pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Lo straccio ha pulito il bancone.",
         "id": 17, 
         "subj": "instrument",
-        "mobile": "Lo straccio pu\u00e8 muoversi.",
+        "mobile": "Lo straccio pu\u00f2 muoversi.",
         "volition": "Lo straccio ha agito di propria iniziativa.",
         "sentient": "Lo straccio \u00E8 senziente.",
         "potent": "Lo straccio ha generato la propria energia per pulire il bancone.",
         "instigation": "Lo straccio ha causato la pulizia del bancone.",
-        "manipulability": "Lo straccio pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Lo straccio pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Emilio ha aperto la cassaforte con la chiave.",
         "id": 18, 
         "subj": "human",
-        "mobile": "Emilio pu\u00e8 muoversi.",
+        "mobile": "Emilio pu\u00f2 muoversi.",
         "volition": "Emilio ha agito di propria iniziativa.",
         "sentient": "Emilio \u00E8 senziente.",
         "potent": "Emilio ha generato la propria energia per aprire la cassaforte.",
         "instigation": "Emilio ha causato l'apertura della cassaforte.",
-        "manipulability": "Emilio pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Emilio pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "La pala ha spostato il terreno.",
         "id": 19, 
         "subj": "instrument",
-        "mobile": "La pala pu\u00e8 muoversi.",
+        "mobile": "La pala pu\u00f2 muoversi.",
         "volition": "La pala ha agito di propria iniziativa.",
         "sentient": "La pala \u00E8 senziente.",
         "potent": "La pala ha generato la propria energia per spostare il terreno.",
         "instigation": "La pala ha causato lo spostamento del terreno.",
-        "manipulability": "La pala pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La pala pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Lucia ha illuminato la caverna con la torcia.",
         "id": 20, 
         "subj": "human",
-        "mobile": "Lucia pu\u00e8 muoversi.",
+        "mobile": "Lucia pu\u00f2 muoversi.",
         "volition": "Lucia ha agito di propria iniziativa.",
         "sentient": "Lucia \u00E8 senziente.",
         "potent": "Lucia ha generato la propria energia per illuminare la caverna.",
         "instigation": "Lucia ha causato l'illuminazione della caverna.",
-        "manipulability": "Lucia pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Lucia pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La pistola ha ucciso l'uccello.",
         "id": 21, 
         "subj": "instrument",
-        "mobile": "La pistola pu\u00e8 muoversi.",
+        "mobile": "La pistola pu\u00f2 muoversi.",
         "volition": "La pistola ha agito di propria iniziativa.",
         "sentient": "La pistola \u00E8 senziente.",
         "potent": "La pistola ha generato la propria energia per uccidere l'uccello.",
         "instigation": "La pistola ha causato l'uccisione dell'uccello.",
-        "manipulability": "La pistola pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La pistola pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Rosario ha pulito il tappeto con l'aspirapoolvere.",
         "id": 22, 
         "subj": "human",
-        "mobile": "Rosario pu\u00e8 muoversi.",
+        "mobile": "Rosario pu\u00f2 muoversi.",
         "volition": "Rosario ha agito di propria iniziativa.",
         "sentient": "Rosario \u00E8 senziente.",
         "potent": "Rosario ha generato la propria energia per pulire il tappeto.",
         "instigation": "Rosario ha causato la pulizia del tappeto.",
-        "manipulability": "Rosario pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Rosario pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il microonde ha scongelato la carne.",
         "id": 23, 
         "subj": "instrument",
-        "mobile": "Il microonde pu\u00e8 muoversi.",
+        "mobile": "Il microonde pu\u00f2 muoversi.",
         "volition": "Il microonde ha agito di propria iniziativa.",
         "sentient": "Il microonde \u00E8 senziente.",
         "potent": "Il microonde ha generato la propria energia per scongelare la carne.",
         "instigation": "Il microonde ha causato lo scongelamento della carne.",
-        "manipulability": "Il microonde pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il microonde pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Alessandra ha raffreddato la stanza con il ventilatore.",
         "id": 24, 
         "subj": "human",
-        "mobile": "Alessandra pu\u00e8 muoversi.",
+        "mobile": "Alessandra pu\u00f2 muoversi.",
         "volition": "Alessandra ha agito di propria iniziativa.",
         "sentient": "Alessandra \u00E8 senziente.",
         "potent": "Alessandra ha generato la propria energia per raffreddare la stanza.",
         "instigation": "Alessandra ha causato il raffreddamento della stanza.",
-        "manipulability": "Alessandra pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Alessandra pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La motosega ha tagliato l'albero.",
         "id": 25, 
         "subj": "instrument",
-        "mobile": "La motosega pu\u00e8 muoversi.",
+        "mobile": "La motosega pu\u00f2 muoversi.",
         "volition": "La motosega ha agito di propria iniziativa.",
         "sentient": "La motosega \u00E8 senziente.",
         "potent": "La motosega ha generato la propria energia per tagliare l'albero.",
         "instigation": "La motosega ha causato il taglio dell'albero.",
-        "manipulability": "La motosega pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La motosega pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Roberto ha sollevato le travi d'acciaio con la gru.",
         "id": 26, 
         "subj": "human",
-        "mobile": "Roberto pu\u00e8 muoversi.",
+        "mobile": "Roberto pu\u00f2 muoversi.",
         "volition": "Roberto ha agito di propria iniziativa.",
         "sentient": "Roberto \u00E8 senziente.",
         "potent": "Roberto ha generato la propria energia per sollevare le travi d'acciaio.",
         "instigation": "Roberto ha causato il sollevamento delle travi d'acciaio.",
-        "manipulability": "Roberto pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Roberto pu\u00f2 essere manipolato fisicamente."
     }
 ]
 
@@ -292,287 +292,287 @@ let trial_objects_2 = [
         "text": "Angela ha catturato il pesce con la canna da pesca.", 
         "id": 1,
         "subj": "human",
-        "mobile": "Angela da pesca pu\u00e8 muoversi.",
+        "mobile": "Angela da pesca pu\u00f2 muoversi.",
         "volition": "Angela da pesca ha agito di propria iniziativa.",
         "sentient": "Angela da pesca \u00E8 senziente.",
         "potent": "Angela da pesca ha generato la propria energia per catturare il pesce.",
         "instigation": "Angela da pesca ha causato la cattura del pesce.",
-        "manipulability": "Angela da pesca pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Angela da pesca pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La frusta ha sbattuto le uova.",
         "id": 2, 
         "subj": "instrument",
-        "mobile": "La frusta pu\u00e8 muoversi.",
+        "mobile": "La frusta pu\u00f2 muoversi.",
         "volition": "La frusta ha agito di propria iniziativa.",
         "sentient": "La frusta \u00E8 senziente.",
         "potent": "La frusta ha generato la propria energia per sbattere le uova.",
         "instigation": "La frusta ha causato la sbattitura delle uova.",
-        "manipulability": "La frusta pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La frusta pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Valentino ha tagliato il pane con il coltello.",
         "id": 3, 
         "subj": "human",
-        "mobile": "Valentino pu\u00e8 muoversi.",
+        "mobile": "Valentino pu\u00f2 muoversi.",
         "volition": "Valentino ha agito di propria iniziativa.",
         "sentient": "Valentino \u00E8 senziente.",
         "potent": "Valentino ha generato la propria energia per tagliare il pane.",        
         "instigation": "Valentino ha causato il taglio del pane.",
-        "manipulability": "Valentino pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Valentino pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il cucchiaio ha mescolato la zuppa.",
         "id": 4, 
         "subj": "instrument",
-        "mobile": "Il cucchiaio pu\u00e8 muoversi.",
+        "mobile": "Il cucchiaio pu\u00f2 muoversi.",
         "volition": "Il cucchiaio ha agito di propria iniziativa.",
         "sentient": "Il cucchiaio \u00E8 senziente.",
         "potent": "Il cucchiaio ha generato la propria energia per mescolare la zuppa.",
         "instigation": "Il cucchiaio ha causato la mescolanza della zuppa.",
-        "manipulability": "Il cucchiaio pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il cucchiaio pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Federica ha schiacciato l'aglio con il pestello.",
         "id": 5, 
         "subj": "human",
-        "mobile": "Federica pu\u00e8 muoversi.",
+        "mobile": "Federica pu\u00f2 muoversi.",
         "volition": "Federica ha agito di propria iniziativa.",
         "sentient": "Federica \u00E8 senziente.",
         "potent": "Federica ha generato la propria energia per schiacciare l​​'aglio.",
         "instigation": "Federica ha causato la schiacciatura dell​'aglio.",
-        "manipulability": "Federica pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Federica pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Il mattarello ha appiattito l'impasto.",
         "id": 6, 
         "subj": "instrument",
-        "mobile": "Il mattarello pu\u00e8 muoversi.",
+        "mobile": "Il mattarello pu\u00f2 muoversi.",
         "volition": "Il mattarello ha agito di propria iniziativa.",
         "sentient": "Il mattarello \u00E8 senziente.",
         "potent": "Il mattarello ha generato la propria energia per appiattire l​​'impasto.",
         "instigation": "Il mattarello ha causato l'appiattimento dell'impasto.",
-        "manipulability": "Il mattarello pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il mattarello pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Francesco ha dipinto il ritratto con il pennello.",
         "id": 7, 
         "subj": "human",
-        "mobile": "Francesco pu\u00e8 muoversi.",
+        "mobile": "Francesco pu\u00f2 muoversi.",
         "volition": "Francesco ha agito di propria iniziativa.",
         "sentient": "Francesco \u00E8 senziente.",
         "potent": "Francesco ha generato la propria energia per dipingere il ritratto.",
         "instigation": "Francesco ha causato la dipintura del ritratto.",
-        "manipulability": "Francesco pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Francesco pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "La matita ha segnato la carta.",
         "id": 8, 
         "subj": "instrument",
-        "mobile": "La matita pu\u00e8 muoversi.",
+        "mobile": "La matita pu\u00f2 muoversi.",
         "volition": "La matita ha agito di propria iniziativa.",
         "sentient": "La matita \u00E8 senziente.",
         "potent": "La matita ha generato la propria energia per segnare la carta.",
         "instigation": "La matita ha causato il segno sulla carta.",
-        "manipulability": "La matita pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La matita pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Carla ha cancellato il segno con la gomma.",
         "id": 9, 
         "subj": "human",
-        "mobile": "Carla pu\u00e8 muoversi.",
+        "mobile": "Carla pu\u00f2 muoversi.",
         "volition": "Carla ha agito di propria iniziativa.",
         "sentient": "Carla \u00E8 senziente.",
         "potent": "Carla ha generato la propria energia per cancellare il segno.",
         "instigation": "Carla ha causato la cancellazione del segno.",
-        "manipulability": "Carla pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Carla pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La racchetta ha colpito la palla.",
         "id": 10, 
         "subj": "instrument",
-        "mobile": "La racchetta pu\u00e8 muoversi.",
+        "mobile": "La racchetta pu\u00f2 muoversi.",
         "volition": "La racchetta ha agito di propria iniziativa.",
         "sentient": "La racchetta \u00E8 senziente.",
         "potent": "La racchetta ha generato la propria energia per colpire la palla.",
         "instigation": "La racchetta ha causato il colpo della palla.",
-        "manipulability": "La racchetta pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La racchetta pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Danielo ha spaccato il legno con l'ascia.",
         "id": 11, 
         "subj": "human",
-        "mobile": "Danielo pu\u00e8 muoversi.",
+        "mobile": "Danielo pu\u00f2 muoversi.",
         "volition": "Danielo ha agito di propria iniziativa.",
         "sentient": "Danielo \u00E8 senziente.",
         "potent": "Danielo ha generato la propria energia per spaccare il legno.",
         "instigation": "Danielo ha causato la spaccatura del legno.",
-        "manipulability": "Danielo pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Danielo pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "La spada ha decapitato il cavaliere.",
         "id": 12, 
         "subj": "instrument",
-        "mobile": "La spada pu\u00e8 muoversi.",
+        "mobile": "La spada pu\u00f2 muoversi.",
         "volition": "La spada ha agito di propria iniziativa.",
         "sentient": "La spada \u00E8 senziente.",
         "potent": "La spada ha generato la propria energia per decapitare il cavaliere.",
         "instigation": "La spada ha causato la decapitazione del cavaliere.",
-        "manipulability": "La spada pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La spada pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Vittoria ha stretto il bullone con la chiave inglese.",
         "id": 13, 
         "subj": "human",
-        "mobile": "Vittoria inglese pu\u00e8 muoversi.",
+        "mobile": "Vittoria inglese pu\u00f2 muoversi.",
         "volition": "Vittoria inglese ha agito di propria iniziativa.",
         "sentient": "Vittoria inglese \u00E8 senziente.",
         "potent": "Vittoria inglese ha generato la propria energia per stringere il bullone.",
         "instigation": "Vittoria inglese ha causato lo stringimento del bullone. ",
-        "manipulability": "Vittoria inglese pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Vittoria inglese pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La pietra ha rotto la finestra.",
         "id": 14, 
         "subj": "instrument",
-        "mobile": "La pietra pu\u00e8 muoversi.",
+        "mobile": "La pietra pu\u00f2 muoversi.",
         "volition": "La pietra ha agito di propria iniziativa.",
         "sentient": "La pietra \u00E8 senziente.",
         "potent": "La pietra ha generato la propria energia per rompere la finestra.",
         "instigation": "La pietra ha causato la rottura della finestra.",
-        "manipulability": "La pietra pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La pietra pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Donato ha spazzato il patio con la scopa.",
         "id": 15, 
         "subj": "human",
-        "mobile": "Donato pu\u00e8 muoversi.",
+        "mobile": "Donato pu\u00f2 muoversi.",
         "volition": "Donato ha agito di propria iniziativa.",
         "sentient": "Donato \u00E8 senziente.",
         "potent": "Donato ha generato la propria energia per spazzare il patio.",
         "instigation": "Donato ha causato la spazzatura del patio.",
-        "manipulability": "Donato pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Donato pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il rastrello ha raccolto le foglie.",
         "id": 16, 
         "subj": "instrument",
-        "mobile": "Il rastrello pu\u00e8 muoversi.",
+        "mobile": "Il rastrello pu\u00f2 muoversi.",
         "volition": "Il rastrello ha agito di propria iniziativa.",
         "sentient": "Il rastrello \u00E8 senziente.",
         "potent": "Il rastrello ha generato la propria energia per raccogliere le foglie.",
         "instigation": "Il rastrello ha causato la raccolta delle foglie.",
-        "manipulability": "Il rastrello pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il rastrello pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Emilia ha pulito il bancone con lo straccio.",
         "id": 17, 
         "subj": "human",
-        "mobile": "Emilia pu\u00e8 muoversi.",
+        "mobile": "Emilia pu\u00f2 muoversi.",
         "volition": "Emilia ha agito di propria iniziativa.",
         "sentient": "Emilia \u00E8 senziente.",
         "potent": "Emilia ha generato la propria energia per pulire il bancone.",
         "instigation": "Emilia ha causato la pulizia del bancone.",
-        "manipulability": "Emilia pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Emilia pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La chiave ha aperto la cassaforte.",
         "id": 18, 
         "subj": "instrument",
-        "mobile": "La chiave pu\u00e8 muoversi.",
+        "mobile": "La chiave pu\u00f2 muoversi.",
         "volition": "La chiave ha agito di propria iniziativa.",
         "sentient": "La chiave \u00E8 senziente.",
         "potent": "La chiave ha generato la propria energia per aprire la cassaforte.",
         "instigation": "La chiave ha causato l'apertura della cassaforte.",
-        "manipulability": "La chiave pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La chiave pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Luca ha spostato il terreno con la pala.",
         "id": 19, 
         "subj": "human",
-        "mobile": "Luca pu\u00e8 muoversi.",
+        "mobile": "Luca pu\u00f2 muoversi.",
         "volition": "Luca ha agito di propria iniziativa.",
         "sentient": "Luca \u00E8 senziente.",
         "potent": "Luca ha generato la propria energia per spostare il terreno.",
         "instigation": "Luca ha causato lo spostamento del terreno.",
-        "manipulability": "Luca pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Luca pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "La torcia ha illuminato la caverna.",
         "id": 20, 
         "subj": "instrument",
-        "mobile": "La torcia pu\u00e8 muoversi.",
+        "mobile": "La torcia pu\u00f2 muoversi.",
         "volition": "La torcia ha agito di propria iniziativa.",
         "sentient": "La torcia \u00E8 senziente.",
         "potent": "La torcia ha generato la propria energia per illuminare la caverna.",
         "instigation": "La torcia ha causato l'illuminazione della caverna.",
-        "manipulability": "La torcia pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La torcia pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "Rosaria ha ucciso l'uccello con la pistola.",
         "id": 21, 
         "subj": "human",
-        "mobile": "Rosaria pu\u00e8 muoversi.",
+        "mobile": "Rosaria pu\u00f2 muoversi.",
         "volition": "Rosaria ha agito di propria iniziativa.",
         "sentient": "Rosaria \u00E8 senziente.",
         "potent": "Rosaria ha generato la propria energia per uccidere l'uccello.",
         "instigation": "Rosaria ha causato l'uccisione dell'uccello.",
-        "manipulability": "Rosaria pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Rosaria pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "L'aspirapolvere ha pulito il tappeto.",
         "id": 22, 
         "subj": "instrument",
-        "mobile": "L'aspirapolvere pu\u00e8 muoversi.",
+        "mobile": "L'aspirapolvere pu\u00f2 muoversi.",
         "volition": "L'aspirapolvere ha agito di propria iniziativa.",
         "sentient": "L'aspirapolvere \u00E8 senziente.",
         "potent": "L'aspirapolvere ha generato la propria energia per pulire il tappeto.",
         "instigation": "L'aspirapolvere ha causato la pulizia del tappeto.",
-        "manipulability": "L'aspirapolvere pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "L'aspirapolvere pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Alessandro ha scongelato la carne con il microonde.",
         "id": 23, 
         "subj": "human",
-        "mobile": "Alessandro pu\u00e8 muoversi.",
+        "mobile": "Alessandro pu\u00f2 muoversi.",
         "volition": "Alessandro ha agito di propria iniziativa.",
         "sentient": "Alessandro \u00E8 senziente.",
         "potent": "Alessandro ha generato la propria energia per scongelare la carne.",
         "instigation": "Alessandro ha causato lo scongelamento della carne.",
-        "manipulability": "Alessandro pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Alessandro pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Il ventilatore ha raffreddato la stanza.",
         "id": 24, 
         "subj": "instrument",
-        "mobile": "Il ventilatore pu\u00e8 muoversi.",
+        "mobile": "Il ventilatore pu\u00f2 muoversi.",
         "volition": "Il ventilatore ha agito di propria iniziativa.",
         "sentient": "Il ventilatore \u00E8 senziente.",
         "potent": "Il ventilatore ha generato la propria energia per raffreddare la stanza.",
         "instigation": "Il ventilatore ha causato il raffreddamento della stanza.",
-        "manipulability": "Il ventilatore pu\u00e8 essere manipolato fisicamente."
+        "manipulability": "Il ventilatore pu\u00f2 essere manipolato fisicamente."
     },
     {
         "text": "Roberta ha tagliato l'albero con la motosega.",
         "id": 25, 
         "subj": "human",
-        "mobile": "Roberta pu\u00e8 muoversi.",
+        "mobile": "Roberta pu\u00f2 muoversi.",
         "volition": "Roberta ha agito di propria iniziativa.",
         "sentient": "Roberta \u00E8 senziente.",
         "potent": "Roberta ha generato la propria energia per tagliare l'albero.",
         "instigation": "Roberta ha causato il taglio dell'albero.",
-        "manipulability": "Roberta pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "Roberta pu\u00f2 essere manipolata fisicamente."
     },
     {
         "text": "La gru ha sollevato le travi d'acciaio.",
         "id": 26, 
         "subj": "instrument",
-        "mobile": "La gru pu\u00e8 muoversi.",
+        "mobile": "La gru pu\u00f2 muoversi.",
         "volition": "La gru ha agito di propria iniziativa.",
         "sentient": "La gru \u00E8 senziente.",
         "potent": "La gru ha generato la propria energia per sollevare le travi d'acciaio.",
         "instigation": "La gru ha causato il sollevamento delle travi d'acciaio.",
-        "manipulability": "La gru pu\u00e8 essere manipolata fisicamente."
+        "manipulability": "La gru pu\u00f2 essere manipolata fisicamente."
     }
 ]
 
